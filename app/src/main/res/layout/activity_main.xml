@@ -11,7 +11,7 @@
     <ImageButton
 
         android:id="@+id/settingBtn"
-        android:layout_width="60dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="9dp"
         android:background="@android:color/transparent"
