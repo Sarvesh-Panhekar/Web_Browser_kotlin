@@ -25,11 +25,17 @@ class MainActivity : AppCompatActivity() {
         val etURL: EditText = findViewById(R.id.etUrl)
         val btnGo: ImageButton = findViewById(R.id.btnGo)
         val backBtn: ImageButton = findViewById(R.id.backbtn)
+        val forwardBtn: ImageButton = findViewById(R.id.forwardBtn)
 
         myWebView.webViewClient= WebViewClient()
 
 
 
+
+        forwardBtn.setOnClickListener {
+            myWebView.goForward()
+
+        }
 
 
         backBtn.setOnClickListener {
